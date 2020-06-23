@@ -1,0 +1,77 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title-text {
+  font-size: 250%;
+  color: white;
+}
+.title-text-user {
+  font-size: 300%;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+}
+.App-header {
+  background-image: url(./img/NYCBackground.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  /* background-color: #282c34;  
+  
+  
+   */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form{
+  /* width: 400px;
+  height: 300px;     */
+  border-radius: 25px;
+  /* padding: 30px;   */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* overflow:hidden ; */
+}
+.form-group{
+  padding: 40px;
+}
+.button-log{
+  margin: 0 auto;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 120px;
+  height: 31px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  /* margin: 16px 28px 16px 0; */
+  float: left;
+  color: white;
+  
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top:-10px;
+}
